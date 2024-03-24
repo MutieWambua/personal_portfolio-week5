@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/5952651/pexels-photo-5952651.jpeg?cs=srgb&dl=pexels-mati-mango-5952651.jpg&fm=jpg'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 2.5em;
+}
+h1 {
+    height: 2.5em;
+    line-height: 2.5em;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.BensonMutie {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.My_description {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightcyan;
+    color: #000;
+    word-spacing: 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.My_description h2 {
+    color: red;
+}
+.My_academics {
+    border-radius: 5px;
+    color: red;
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.My_skills {
+    color: gold;
+    flex: 1;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url("https://images.pexels.com/photos/133464/pexels-photo-133464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: contain; /* Resize background image to fit within div */
+    background-position: center; /* Center background image within div */
+}
+
+
+.logo-container{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.logo-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
